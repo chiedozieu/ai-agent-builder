@@ -6,8 +6,8 @@ export default defineSchema({
   UserTable: defineTable({
     name: v.string(),
     email: v.string(),
-    imageUrl: v.optional(v.string()),
-    subscription: v.string(),
+    subscription: v.optional(v.string()),
+    // imageUrl: v.optional(v.string()),
     token: v.number(),
   }),
 });
